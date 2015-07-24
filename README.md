@@ -1,2 +1,11 @@
-# ChampionWeb
-git repo for The Champion Project
+
+The Champion Project Website
+
+Awesome Technologies:
+node.js
+react
+redux
+webpack
+react-hot-loader
+
+
