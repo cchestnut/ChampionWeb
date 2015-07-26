@@ -1,3 +1,5 @@
+require('../../css/components/topmostSection.scss');
+
 import React from 'react';
 import MediaList from './MediaList.js';
 
@@ -16,6 +18,8 @@ function sectionListConfig(type){
     elemArray = ['gladiator', 'onslaught', 'shield'];
   } else if (type === 'topmost'){
     elemArray = ['welcome text'];
+  } else if (type === 'battlefield'){
+    elemArray = ['virtField'];
   } else{
     elemArray = [''];
   }
@@ -27,7 +31,9 @@ let Section = React.createClass({
     let inner = sectionListConfig(this.props.type);
     let classString = 'sectionTitle ' + this.props.type;
     return(
-      <div className={classString}>{this.props.children}
+      <div className={classString}>
+        <h2>{this.props.children}</h2>
+        <h3>{this.props.subtitle}</h3>
         <MediaList data={inner} listType={this.props.type}/>
       </div>
     );

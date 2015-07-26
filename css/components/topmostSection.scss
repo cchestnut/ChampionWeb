@@ -1,0 +1,30 @@
+.at8units .sectionTitle.topmost {
+  font-size: 39px;
+  margin-left: 77px;
+}
+
+.sectionTitle.topmost {
+  font-size: 54px;
+  font-family: fantasy;
+  text-transform: uppercase;
+  word-spacing: 25px;
+  text-indent: 23px;
+  color: #DF0101;
+  text-shadow: 2px 2px 8px #FFFFFF;
+}
+
+.topmost h2 {
+  margin-bottom: 100px;
+}
+
+.welcome.text {
+  text-align: center;
+  font-weight: bold;
+  width: 620px;
+  text-shadow: 0 0 90px;
+  margin-bottom: 200px;
+}
+.welcome.text:before{
+  content: 'Augment Your Reality Become Your Hero
+          Champion Your World';
+}
