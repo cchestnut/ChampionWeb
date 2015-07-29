@@ -1,0 +1,60 @@
+
+.offensive,
+.defensive {
+  padding-bottom: 20px;
+  font-size: 36px;
+  text-align: left;
+  .innerText:before {
+  content: 'Offensive Techniques';
+  }
+}
+
+.defensive .innerText:before {
+  content: 'Defensive Techniques';
+}
+
+.slice {
+  height: 200px;
+
+  .innerText:before {
+    content: 'The Slice';
+  }
+  .innerMedia {
+    background-image: url('../../assets/HorizontalSlash.gif');
+    height: 200px;
+    background-size: cover;
+    width: 400px;
+    float: right;
+  }
+}
+
+.smash {
+  height: 200px;
+
+  .innerText:before {
+    content: 'The Smash';
+  }
+  .innerMedia {
+    background-image: url('../../assets/VerticalSmash.gif');
+    height: 200px;
+    background-size: cover;
+    width: 400px;
+    float: left;
+  }
+}
+
+.stab .innerText:before {
+  content: 'The Stab';
+}
+
+.defensive .innerText:before {
+  content: 'Defensive Techniques';
+}
+
+.block .innerText:before {
+  content: 'The Block';
+}
+
+.parry .innerText:before {
+  content: 'The Parry';
+}

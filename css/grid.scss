@@ -1,0 +1,38 @@
+.at8units {
+  .sectionTitle.topmost {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+
+  .sectionTitle.strategy {
+    margin-left: 20px;
+    .mediaList > div{
+      padding-bottom: 55px;
+    }
+  }
+
+  .welcome.text {
+    padding-left: 23px;
+  }
+
+  .jedi.gif {
+    margin-left: 175px;
+  }
+
+  .friends .innerText {
+    padding-left: 125px;
+  }
+
+  .stupid .innerMedia {
+    margin-left: 500px;
+  }
+
+  .brawl,
+  .toAvoid,
+  .virtField {
+    padding-bottom: 60px;
+  }
+
+}

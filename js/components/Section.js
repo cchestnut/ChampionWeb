@@ -1,4 +1,8 @@
 require('../../css/components/topmostSection.scss');
+require('../../css/components/battlefield.scss');
+require('../../css/components/brawlSection.scss');
+require('../../css/components/avoid.scss');
+require('../../css/components/strategySection.scss');
 
 import React from 'react';
 import MediaList from './MediaList.js';

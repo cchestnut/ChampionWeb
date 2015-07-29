@@ -22,9 +22,9 @@ let App = React.createClass({
 });
 
 let routes = (
-  <Route name="app" path="/" handler={App}>
+  <Route name="app" path="/main" handler={App}>
     <Route name="login" path="/login" handler={LoginHandler}/>
-    <Route name="main" path="/main" handler={MainHandler}/>
+    <Route name="main" path="/" handler={MainHandler}/>
   </Route>
 );
 
