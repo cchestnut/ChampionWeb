@@ -51,8 +51,16 @@
   content: 'Defensive Techniques';
 }
 
-.block .innerText:before {
-  content: 'The Block';
+.block {
+  .innerText:before {
+    content: 'The Block';
+  }
+  .innerMedia {
+    background-image: url('../../assets/Blocking.gif');
+    height: 200px;
+    background-size: cover;
+    width: 400px;
+  }
 }
 
 .parry .innerText:before {

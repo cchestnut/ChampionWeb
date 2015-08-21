@@ -1,4 +1,8 @@
 .at8units {
+  .mainPage {
+    width: 825px;
+  }
+
   .sectionTitle.topmost {
     margin-left: 20px;
     margin-right: 20px;
@@ -17,8 +21,13 @@
     padding-left: 23px;
   }
 
+  .mediaList.brawl-list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
   .jedi.gif {
-    margin-left: 175px;
   }
 
   .friends .innerText {
