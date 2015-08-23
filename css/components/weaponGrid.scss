@@ -3,3 +3,17 @@
   height: 500px;
   width: 500px;
 }
+
+.weapon_grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.weapon_grid-list {
+  display: flex;
+  justify-content: center;
+}
+
+.grid_example {
+  justify-content: center;
+}

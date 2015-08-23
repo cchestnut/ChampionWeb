@@ -5,7 +5,8 @@ let MediaPiece = React.createClass({
     return(
       <div className={this.props.children}>
         <div className='innerMedia'/>
-        <div className='innerText'>
+        <div className='textBlock'>
+          <div className='innerText'/>
           <div className='smallText'/>
         </div>
       </div>
