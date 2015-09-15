@@ -8,17 +8,13 @@
   color: #0000FF;
 }
 
+.virtField {
+  font-size: 40px;
+}
+
 .virtField .innerMedia {
   background-image: url(../../assets/VirtualBattlefield.gif);
   height: 565px;
   width: 849px;
 }
-
-.virtField .innerText:before{
-  content: 'In the mobile app, players will be locked into a virtual battlefield
-  where your phone is your weapon';
-  font-size: 40px;
-}
-
-
 

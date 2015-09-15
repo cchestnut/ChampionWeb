@@ -19,20 +19,12 @@
   padding-bottom: 20px;
   font-size: 36px;
   justify-content: center !important;
-  .innerText:before {
-  content: 'Offensive Techniques';
-  }
 }
 
-.defensive .innerText:before {
-  content: 'Defensive Techniques' !important;
-}
 
 .slice {
   height: 200px;
-  .innerText:before {
-    content: 'The Slice';
-  }
+
   .smallText:before {
     content: 'By swinging your phone horizontally, a player is able to perform the Slice attack. The faster the phone is swung, the more damage is dealt. Proximity and the player\'s Strength stat also factor into how much power the Slice attack has. Blocking minimizes damage received from this attack and parrying can nullify damage.';
   }
@@ -48,9 +40,7 @@
 .strategy-list div.smash {
   height: 200px;
   flex-direction: row-reverse;
-  .innerText:before {
-    content: 'The Smash';
-  }
+
   .smallText:before {
     content: 'This powerful attack is launched when you swing your phone vertically, in either direction. Damage from this attack is much greater than The Slice, but comes with greater risk since a strong enough Parry can stun the user. Similar to The Slice, proximity, swing speed, and the Strength stat factor into the damage from this attack.';
   }
@@ -63,18 +53,7 @@
   }
 }
 
-.stab .innerText:before {
-  content: 'The Stab';
-}
-
-.defensive .innerText:before {
-  content: 'Defensive Techniques';
-}
-
 .block {
-  .innerText:before {
-    content: 'The Block';
-  }
   .innerMedia {
     background-image: url('../../assets/Blocking.gif');
     height: 200px;
@@ -83,6 +62,5 @@
   }
 }
 
-.parry .innerText:before {
-  content: 'The Parry';
+.parry  {
 }

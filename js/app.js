@@ -42,7 +42,6 @@ let App = React.createClass({
   },
 
   handleScroll() {
-    console.log(window.scrollY);
     if(window.scrollY > 103) {
       this.setState(
         {
