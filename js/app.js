@@ -2,6 +2,7 @@ import React from 'react';
 import Router from 'react-router';
 import { DefaultRoute, Link, Route, RouteHandler } from 'react-router';
 import stylesheet from '../css/components/mainPage.scss';
+import headerSheet from '../css/components/header.scss';
 require('../css/fonts.scss');
 
 import LoginHandler from './components/Login.js';
@@ -11,9 +12,10 @@ let App = React.createClass({
   render() {
     return (
       <div className="nav at8units">
-        <Link to="app">Home</Link>
-        <Link to="login">Login</Link>
-        <Link to="main">Main</Link>
+        <div className="NavHeader">
+          <Link to="main">Main</Link>
+          <Link to="login">Login</Link>
+        </div>
         {/* this is the important part */}
         <RouteHandler/>
       </div>

@@ -1,0 +1,19 @@
+.at8units {
+
+  div.NavHeader {
+    height: 180px;
+  }
+}
+
+div.NavHeader {
+  display: flex;
+  flex-direction: row;
+  background-color: whitesmoke;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 100%;
+  background-image: url('../../assets/logo-true.png');
+  background-size: 50% 90%;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
