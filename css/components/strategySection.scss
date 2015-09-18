@@ -25,9 +25,6 @@
 .slice {
   height: 200px;
 
-  .smallText:before {
-    content: 'By swinging your phone horizontally, a player is able to perform the Slice attack. The faster the phone is swung, the more damage is dealt. Proximity and the player\'s Strength stat also factor into how much power the Slice attack has. Blocking minimizes damage received from this attack and parrying can nullify damage.';
-  }
   .innerMedia {
     background-image: url('../../assets/HorizontalSlash.gif');
     height: 200px;
@@ -41,10 +38,7 @@
   height: 200px;
   flex-direction: row-reverse;
 
-  .smallText:before {
-    content: 'This powerful attack is launched when you swing your phone vertically, in either direction. Damage from this attack is much greater than The Slice, but comes with greater risk since a strong enough Parry can stun the user. Similar to The Slice, proximity, swing speed, and the Strength stat factor into the damage from this attack.';
-  }
-  .innerMedia {
+   .innerMedia {
     background-image: url('../../assets/VerticalSmash.gif');
     height: 200px;
     background-size: cover;
