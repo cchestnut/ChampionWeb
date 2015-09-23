@@ -13,9 +13,9 @@ export let innerTextMapping = {
 };
 
 export let smallTextMapping = {
-  "slice" :["Launch: Horizontal Swing","Damage Factors: Swing Speed, Strength Stat, Proximity", "Description: Most basic attack"],
-  "smash" :["Launch: Vertical Swing", "Damage Factors: Swing Speed, Stength Stat", "Description: Power attack, more vulnerable to parry"],
-  "stab" :["Launch: Forward Thrust","Damage Factors: Swing Speed, Strength Stat, Proximity","Description: Quick, unparry-able attack that does no damage to blocking opponent"],
-  "block" :["Launch: Stationary Device", "Reduction Factors: Defense Stat"],
+  "slice" :["Launch: Horizontal Swing","Factors: Swing Speed, Strength Stat, Proximity", "Description: Most basic attack"],
+  "smash" :["Launch: Vertical Swing", "Factors: Swing Speed, Stength Stat", "Description: Power attack, more vulnerable to parry"],
+  "stab" :["Launch: Forward Thrust","Factors: Swing Speed, Strength Stat, Proximity","Description: Quick, unparry-able attack that does no damage to blocking opponent"],
+  "block" :["Launch: Stationary Device", "Description: Defensive technique to reduce incoming damage"],
   "parry" :["Launch: Movement Opposite Opponent's Attack","Description: The most effective defensive technique and the most difficult"]
 };

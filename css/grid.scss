@@ -1,6 +1,9 @@
 .at8units {
   .mainPage {
+    margin-right: auto;
+    margin-left: auto;
     width: 825px;
+    align-items: center;
   }
 
   .sectionTitle.topmost {
@@ -19,6 +22,7 @@
 
   .welcome.text {
     padding-left: 23px;
+
   }
 
   .mediaList.brawl-list {
@@ -41,6 +45,26 @@
   .toAvoid,
   .virtField {
     padding-bottom: 60px;
+  }
+
+  .strategy-list {
+    .smallText {
+      text-align: justify;
+    }
+  }
+
+}
+
+.at4units {
+  .mainPage {
+    width: 320px;
+  }
+  .sectionTitle.topmost {
+    
+  }
+
+  .welcome.text {
+    
   }
 
 }

@@ -10,17 +10,42 @@
   }
 }
 
-.strategy-list .textBlock {
+.at4units {
+  .strategy-list > div {
+    flex-direction: column;
+    padding-bottom: 200px;
+  }
+}
+
+.at8units .strategy-list .textBlock {
   width: 500px;
 }
 
-.offensive.text,
-.defensive.text {
-  padding-bottom: 20px;
-  font-size: 36px;
-  justify-content: center !important;
+.strategy-list .innerText {
+  font-size: 30px;
 }
 
+.strategy-list .smallText {
+  color: silver;
+}
+
+.strategy-list {
+  div.offensive.text,
+  div.defensive.text  {
+    padding-bottom: 20px;
+    font-size: 36px;
+    justify-content: center;
+  }
+}
+
+.at4units {
+  .slice,
+  .smash,
+  .stab {
+    height: 320px;
+    background-size: 320px 300px;
+  }
+}
 
 .slice {
   height: 200px;
@@ -33,10 +58,12 @@
     float: right;
   }
 }
+.at8units .smash {
+  flex-direction: row-reverse;
+  height: 200px;
+}
 
 .strategy-list div.smash {
-  height: 200px;
-  flex-direction: row-reverse;
 
    .innerMedia {
     background-image: url('../../assets/VerticalSmash.gif');

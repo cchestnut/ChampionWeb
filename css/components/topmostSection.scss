@@ -1,5 +1,6 @@
-.at8units .sectionTitle.topmost {
-  font-size: 39px;
+.at4units .sectionTitle.topmost {
+  font-size: 20px;
+  width: 368px;
 }
 
 .sectionTitle.topmost {
@@ -24,5 +25,9 @@
   width: 620px;
   text-shadow: 0 0 90px;
   margin-bottom: 200px;
+}
+
+.at4units .welcome.text {
+  width: 320px;
 }
 
