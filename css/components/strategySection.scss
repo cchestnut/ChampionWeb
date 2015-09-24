@@ -15,6 +15,11 @@
     flex-direction: column;
     padding-bottom: 200px;
   }
+
+  .strategy h2 {
+    text-decoration: underline;
+    color: silver;
+  }
 }
 
 .at8units .strategy-list .textBlock {
@@ -27,6 +32,7 @@
 
 .strategy-list .smallText {
   color: silver;
+  text-align: left;
 }
 
 .strategy-list {
@@ -39,16 +45,24 @@
 }
 
 .at4units {
-  .slice,
-  .smash,
-  .stab {
-    height: 320px;
-    background-size: 320px 300px;
+  div.slice,
+  div.smash,
+  div.stab,
+  div.block {
+    div.innerMedia{
+      height: 300px;
+      background-size: 320px 300px;
+      width: 320px;
+    }
   }
 }
 
-.slice {
+
+.at8units .slice {
   height: 200px;
+}
+
+.slice {
 
   .innerMedia {
     background-image: url('../../assets/HorizontalSlash.gif');

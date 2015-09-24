@@ -8,6 +8,7 @@ import headerSheet from '../css/components/header.scss';
 require('../css/fonts.scss');
 
 import MainHandler from './components/Page.js';
+import ShareLink from './components/ShareLink.js';
 import {TrainingHandler, ShadowHandler, VideoHandler, DevHandler, DominationHandler}
   from './components/pageHandlers.js';
 
@@ -36,6 +37,7 @@ let App = React.createClass({
     return (
       <div className={desktopString}>
           <div className="NavHeader">
+            <a className="sharelink" href="https://www.facebook.com/InnerChampion"/>
             <Link to="main">Main</Link>
             <Link to="train">Train</Link>
             <Link to="dominate">Dominate</Link>

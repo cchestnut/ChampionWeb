@@ -1,10 +1,10 @@
 import React from 'react';
-
+import NotYetPage from '../components/NotYet.js';
 export let ShadowHandler = React.createClass({
   displayName: 'ShadowPage',
   render(){
     return(
-      <div/>
+      <NotYetPage pageName="Shadow"/>
     );
   }
 });
@@ -13,16 +13,16 @@ export let TrainingHandler = React.createClass({
   displayName: 'Training',
   render(){
     return(
-      <div/>
+      <NotYetPage pageName="Training"/>
     );
   }
 });
 
 export let DominationHandler = React.createClass({
   displayName: 'Domination',
-  render(){
+  render() {
     return(
-      <div/>
+      <NotYetPage pageName="Domination"/>
     );
   }
 });
@@ -31,7 +31,7 @@ export let DevHandler = React.createClass({
   displayName: 'Development',
   render(){
     return(
-      <div/>
+      <NotYetPage pageName="Development"/>
     );
   }
 });
@@ -40,7 +40,7 @@ export let VideoHandler = React.createClass({
   displayName: 'Video',
   render(){
     return(
-      <div/>
+      <NotYetPage pageName="Video"/>
     );
   }
 });
