@@ -1,10 +1,12 @@
 .weapon_grid .innerMedia {
   background-image: url(../../assets/weapon_grid.jpg);
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 300px;
+  background-size: 300px 400px;
 }
 
 .weapon_grid {
+  display: -webkit-box;
   display: flex;
   flex-direction: column;
 }
@@ -14,6 +16,7 @@
 }
 
 .weapon_grid-list {
+  display: -webkit-box;
   display: flex;
   justify-content: center;
 }
