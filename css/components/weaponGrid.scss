@@ -6,7 +6,6 @@
 }
 
 .weapon_grid {
-  display: -webkit-box;
   display: flex;
   flex-direction: column;
 }
@@ -16,7 +15,6 @@
 }
 
 .weapon_grid-list {
-  display: -webkit-box;
   display: flex;
   justify-content: center;
 }
