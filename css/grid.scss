@@ -1,5 +1,5 @@
-.at8units {
-  .mainPage {
+@media (min-width: 860px)  {
+  div.mainPage {
     margin-right: auto;
     margin-left: auto;
     width: 825px;
@@ -55,7 +55,6 @@
 
 }
 
-.at4units {
   .mainPage {
     width: 320px;
     margin-right: auto;
@@ -69,4 +68,3 @@
     
   }
 
-}

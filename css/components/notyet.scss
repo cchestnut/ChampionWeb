@@ -5,10 +5,12 @@
   text-align: center;
 }
 
-.at4units .notYet p {
+.notYet p {
   font-size: 36px;
 }
 
-.at8units .notYet p {
+@media (min-width: 860) {
+  .notYet p {
   font-size: 49px;
+  }
 }

@@ -61,6 +61,7 @@ let App = React.createClass({
       this.setState({screenUnit: 'at8units'});
       this.forceUpdate();
     }.bind(this));
+
     this.media({maxWidth: 859}, () => {
       this.setState({screenUnit: 'at4units'});
       this.forceUpdate();

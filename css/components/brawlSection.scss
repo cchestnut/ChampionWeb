@@ -1,23 +1,23 @@
-
-.jedi.gif {
-  background-image: url(../../assets/JediPhones.gif);
+@media (min-width: 860px) {
+div.jedi.gif {
+  background-size: initial;
   height: 338px;
   width: 500px;
 }
 
-.brawl .innerText {
-  font-size: 30px;
+div.brawl .innerText {
   width: 600px;
 }
+}
 
-.at4units {
-  .jedi.gif {
-    background-size: 320px 320px;
-    height: 320px;
-    width: 320px;
-  }
+.jedi.gif {
+  background-image: url(../../assets/JediPhones.gif);
+  background-size: 320px 320px;
+  height: 320px;
+  width: 320px;
+}
 
   .brawl .innerText {
+    font-size: 30px;
     width: 360px;
   }
-}

@@ -1,5 +1,7 @@
-.at8units h2 {
+@media (min-width: 860px){
+  h2 {
   font-size: 46px;
+  }
 }
 
 .sectionTitle,
@@ -14,13 +16,18 @@
 
 .virtField .innerMedia {
   background-image: url(../../assets/VirtualBattlefield.gif);
-  height: 565px;
-  width: 849px;
-}
-
-.at4units .virtField .innerMedia {
   height:320px;
   width: 100%;
   background-size: 320px 320px;
 }
+
+@media (min-width: 860px) {
+  .virtField .innerMedia {
+  height: 565px;
+  width: 849px;
+  background-size: initial;
+}
+}
+
+
 

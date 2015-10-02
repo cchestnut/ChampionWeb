@@ -1,29 +1,27 @@
 .strategy-list > div {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  padding-bottom: 200px;
 }
 
-.at8units {
+@media (min-width: 860px)  {
   .strategy-list > div {
     width: 750px;
     justify-content: space-around;
+    flex-direction: row;
+  }
+  .strategy-list .textBlock {
+    width: 500px;
+  }
+  div.strategy h2 {
+    text-decoration: none;
+    color: #0000FF;
   }
 }
 
-.at4units {
-  .strategy-list > div {
-    flex-direction: column;
-    padding-bottom: 200px;
-  }
-
-  .strategy h2 {
-    text-decoration: underline;
-    color: silver;
-  }
-}
-
-.at8units .strategy-list .textBlock {
-  width: 500px;
+.strategy h2 {
+  text-decoration: underline;
+  color: silver;
 }
 
 .strategy-list .innerText {
@@ -44,7 +42,6 @@
   }
 }
 
-.at4units {
   div.slice,
   div.smash,
   div.stab,
@@ -55,26 +52,27 @@
       width: 320px;
     }
   }
-}
 
 
-.at8units .slice {
+@media (min-width: 860px)  {
+  div.slice {
   height: 200px;
-}
 
-.slice {
-
-  .innerMedia {
+  div.innerMedia {
     background-image: url('../../assets/HorizontalSlash.gif');
     height: 200px;
     background-size: cover;
     width: 400px;
     float: right;
+    }
   }
 }
-.at8units .smash {
+
+@media (min-width: 860px) {
+  div.smash {
   flex-direction: row-reverse;
   height: 200px;
+}
 }
 
 .strategy-list div.smash {
